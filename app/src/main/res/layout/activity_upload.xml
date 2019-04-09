@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".module.UploadFile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/room"
+        android:layout_weight="1">
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_main"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tv_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Upload file to S 3"/>
+
+        <LinearLayout
+            android:id="@+id/upload_layout_info"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="@dimen/marging_30"
+            android:layout_below="@+id/tv_text"
+            android:layout_marginLeft="@dimen/marging_30"
+            android:layout_marginRight="@dimen/marging_30"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/blue_2"
+                android:padding="@dimen/marging_10"
+                android:layout_weight="0.2"
+                android:gravity="center"
+                android:background="#D3E7EF"
+                android:text="UPLOAD"/>
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:padding="@dimen/marging_10"
+                android:background="#1A6C7A"
+                android:src="@drawable/upload_icon"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/download_layout_info"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="@dimen/marging_30"
+            android:layout_below="@+id/upload_layout_info"
+            android:layout_marginLeft="@dimen/marging_30"
+            android:layout_marginRight="@dimen/marging_30"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/blue_2"
+                android:padding="@dimen/marging_10"
+                android:layout_weight="0.2"
+                android:gravity="center"
+                android:background="#D3E7EF"
+                android:text="DOWNLOAD"/>
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:padding="@dimen/marging_10"
+                android:background="#1A6C7A"
+                android:rotation="180"
+                android:src="@drawable/upload_icon"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

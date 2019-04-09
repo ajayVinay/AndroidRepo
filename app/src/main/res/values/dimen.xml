@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--  Marging /Padding  -->
+    <dimen name="marging_30">30dp</dimen>
+    <dimen name="marging_40">40dp</dimen>
+    <dimen name="marging_50">50dp</dimen>
+
+    <dimen name="marging_20">20dp</dimen>
+    <dimen name="marging_10">10dp</dimen>
+    <dimen name="marging_15">15dp</dimen>
+    <dimen name="edttxt_h">60dp</dimen>
+    <dimen name="btn_h">45dp</dimen>
+    <dimen name="btn_h1">40dp</dimen>
+    <dimen name="actionbar_h">55dp</dimen>
+    <dimen name="actionbar_title">20dp</dimen>
+    <dimen name="padding_5">5dp</dimen>
+    <dimen name="photo">100dp</dimen>
+    <dimen name="btn_cancel_width">110dp</dimen>
+    <dimen name="default_padding_top">8dp</dimen>
+    <dimen name="default_padding_bottom">8dp</dimen>
+    <dimen name="inner_padding_left">0dp</dimen>
+    <dimen name="inner_padding_right">0dp</dimen>
+    <dimen name="floating_label_text_size">12sp</dimen>
+    <dimen name="bottom_text_size">12sp</dimen>
+    <dimen name="inner_components_spacing">8dp</dimen>
+    <dimen name="bottom_ellipsis_height">4dp</dimen>
+    <dimen name="default_text_size">16sp</dimen>
+    <dimen name="default_button_size">60dp</dimen>
+    <dimen name="default_delete_button_size">16dp</dimen>
+    <dimen name="default_horizontal_spacing">8dp</dimen>
+    <dimen name="default_vertical_spacing">16dp</dimen>
+    <dimen name="default_dot_diameter">8dp</dimen>
+    <dimen name="default_dot_spacing">8dp</dimen>
+    <dimen name="crop__bar_height">56dp</dimen>
+    <dimen name="carbon_1dip">1dp</dimen>
+    <dimen name="header_view_start_margin_left">16dp</dimen>
+    <dimen name="header_view_end_margin_left">40dp</dimen>
+    <dimen name="header_view_end_margin_right">14dp</dimen>
+    <dimen name="header_view_start_margin_bottom">14dp</dimen>
+    <dimen name="header_view_start_text_size">32sp</dimen>
+    <dimen name="header_view_end_text_size">18sp</dimen>
+    <color name="text_hint_color">#80CBC4</color>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="dots_height">30dp</dimen>
+    <dimen name="dots_margin_bottom">20dp</dimen>
+    <dimen name="img_width_height">120dp</dimen>
+    <dimen name="slide_title">30dp</dimen>
+    <dimen name="slide_desc">16dp</dimen>
+    <dimen name="desc_padding">40dp</dimen>
+    <dimen name="stpi_default_circle_radius">10dp</dimen>
+    <dimen name="stpi_default_circle_stroke_width">4dp</dimen>
+    <dimen name="stpi_default_indicator_radius">4dp</dimen>
+    <dimen name="stpi_default_line_stroke_width">2dp</dimen>
+    <dimen name="stpi_default_line_margin">5dp</dimen>
+    <dimen name="marging_width_0">0dip</dimen>
+    <dimen name="icon_size">50dp</dimen>
+    <dimen name="message_text_width">200dp</dimen>
+    <dimen name="message_text_size">20sp</dimen>
+    <dimen name="message_text_radius">20dp</dimen>
+    <dimen name="icon_layout_margin">12dp</dimen>
+    <dimen name="message_text_margin">12dp</dimen>
+    <dimen name="message_text_padding">10dp</dimen>
+    <dimen name="time_display_margin">100dp</dimen>
+    <dimen name="list_item_margin">16dp</dimen>
+    <dimen name="date_text_size">15sp</dimen>
+    <dimen name="date_text_side_bar_width">100dp</dimen>
+    <dimen name="data_text_side_bar_height">1dp</dimen>
+    <dimen name="three_grid_unit">24dp</dimen>
+    <dimen name="one_and_a_half_grid_unit">12dp</dimen>
+
+    <!--  Text Sizes -->
+    <dimen name="txtsize13">13sp</dimen>
+    <dimen name="txtsize14">14sp</dimen>
+    <dimen name="txtsize15">15sp</dimen>
+    <dimen name="txtsize16">16sp</dimen>
+    <dimen name="txtsize17">17sp</dimen>
+    <dimen name="txtsize18">18sp</dimen>
+    <dimen name="txtsize19">19sp</dimen>
+    <dimen name="txtsize20">20sp</dimen>
+    <dimen name="txtsize21">21sp</dimen>
+    <dimen name="txtsize25">25sp</dimen>
+    <dimen name="textbold">17dp</dimen>
+    <dimen name="keypadImageWidth">65dp</dimen>
+    <dimen name="keypadButtonSize">72dp</dimen>
+    <dimen name="keypadMarginTop">65dp</dimen>
+
+
+</resources>
