@@ -58,7 +58,7 @@ public class UploadFile  extends AppCompatActivity {
                         hideLoading();
 
                         Toast.makeText(getApplicationContext(),"File Uploaded",Toast.LENGTH_LONG).show();
-                        tvStatus.setText("File Uploaded");
+                        //tvStatus.setText("File Uploaded");
                        // urlFromS3 = S3Utils.generates3ShareUrl(getApplicationContext(), file_path);
                        /*if(!TextUtils.isEmpty(urlFromS3)) { tvStatus.setTextColor(getResources().getColor(R.color.colorAccent));
 
