@@ -39,13 +39,10 @@ public class FileUtils {
         }
         return false;
     }
-
-
     public static void copy(InputStream source, File destFile) {
 
         FileOutputStream destination=null;
         try {
-
             destination = new FileOutputStream(destFile);
 
             if(source != null && destination != null) {
@@ -79,8 +76,6 @@ public class FileUtils {
         }
 
     }
-
-
     public static void copy(InputStream source, OutputStream destination) throws IOException {
         if(source != null && destination != null) {
             int length = 4096;

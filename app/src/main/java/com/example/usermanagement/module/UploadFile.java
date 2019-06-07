@@ -76,7 +76,6 @@ public class UploadFile  extends AppCompatActivity {
             });
         }
         }
-
     private void downloadFile(String file_path) {
 
         if(file_path != null){
@@ -89,13 +88,11 @@ public class UploadFile  extends AppCompatActivity {
                 public void onDownloadSuccess(String response) {
                     if (response.equalsIgnoreCase("COMPLETED")) {
                         hideLoading();
-
                         Log.d("response", "onDownloadSuccess: "+response);
                         Toast.makeText(getApplicationContext(),"File Downloaded",Toast.LENGTH_LONG).show();
                        /* urlFromS3 = S3Utils.generates3ShareUrl(getApplicationContext(), file_path);
                         if(!TextUtils.isEmpty(urlFromS3)) {
                             tvStatus.setText("Download : "+urlFromS3);
-
                         }*/
                     }
                 }

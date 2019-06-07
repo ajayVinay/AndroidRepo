@@ -29,8 +29,8 @@ public interface UserDao {
     @Query("DELETE FROM user_information")
      void deleteAlldatabasse();                       // delete all table entry
 
-//    @Query("DROP TABLE user_information ")
-//    void dropTable();
+  // @Query("DROP TABLE user_information ")
+  //  void dropTable();                                // drop table
 
     @Query("SELECT * FROM user_information WHERE `EmployeeID` = :userId" )  // get user detail by userId from  database
     UserInfo getUserDetailById(String userId);

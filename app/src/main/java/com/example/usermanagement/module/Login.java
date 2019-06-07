@@ -84,8 +84,6 @@ public class Login extends AppCompatActivity {
             if (email.equals("admin123@gmail.com")&& pass.equals("admin@123")){
                 commanUtility.setLoginStatus(true);
                 syncDataAdminLogin();
-
-
                 handler = new Handler();
                 handler.postDelayed(new Runnable() {
                     @Override
@@ -102,7 +100,6 @@ public class Login extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(),"UnAuthorized email or password",Toast.LENGTH_SHORT).show();
                 }
             }
-
 //          if (checkEmailAndPass.getCount()>0) {
 //                 if (email.equals("admin123@gmail.com")&& pass.equals("admin@123")){
 //

@@ -210,7 +210,6 @@ public class CommanUtility {
        return getSharedPrefrences().getBoolean(AppConstant.LOGIN_STATUS, false);
 
     }
-
     public void clearSharedPreference(){
         SharedPreferences mPref = getSharedPrefrences();
         SharedPreferences.Editor editor = mPref.edit();

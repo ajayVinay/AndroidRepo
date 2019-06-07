@@ -53,7 +53,6 @@ public class ProfileActivity extends AppCompatActivity {
         commanUtility = new CommanUtility(this);
 
         // Database name "db-contact"
-
         mUserDao = Room.databaseBuilder(this, AppDatabase.class, "db-contacts")
                 .allowMainThreadQueries()          //Allows room to do operation on main thread
                 .build()
